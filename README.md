@@ -16,6 +16,8 @@ git clone https://github.com/getsentry/self-hosted.git
 SENTRY_SELF_HOSTED_HOME=`pwd`/self-hosted
 cd $SENTRY_SELF_HOSTED_HOME
 ./install.sh
+or
+./install.sh --skip-user-creation
 """output
 ...
 Would you like to create a user account now? [Y/n]: y
